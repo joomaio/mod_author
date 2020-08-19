@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="0.2" client="site" method="upgrade">
+<extension type="module" version="3.1" client="site" method="upgrade">
 	<name>MOD_AUTHOR</name>
 	<author>Joomaio inc.</author>
 	<creationDate>20-07-2019</creationDate>
@@ -7,8 +7,13 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>product@joomaio.com</authorEmail>
 	<authorUrl>joomaio.com</authorUrl>
-	<version>0.2</version>
+	<version>0.3</version>
 	<description>MOD_AUTHOR_XML_DESCRIPTION</description>
+
+	<updateservers>
+		<server type="extension" name="mod_author" priority="1">http://www.update.joomaio.org/mod_author/mod_author_update.xml</server>
+	</updateservers>
+
 	<files>
 		<filename module="mod_author">mod_author.php</filename>
 		<folder>tmpl</folder>
