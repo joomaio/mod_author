@@ -1,3 +1,8 @@
+### Version 0.3
+- Joomla 3.9.20, PHP 7.2.3, MySQL 5.7.26
+- Changes:
+    - Add server update
+
 ### Version 0.2
 - Joomla 3.9.13, PHP 7.2.3, MySQL 5.7.26
 - Changes:
